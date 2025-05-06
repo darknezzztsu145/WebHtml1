@@ -57,7 +57,7 @@
   .Texto2{
     position: absolute;
     top: 209px;
-    margin-left: 100px;
+    margin-left: 50px;
     color: #ffffff;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333)
@@ -65,34 +65,38 @@
 
   .Texto3{
     position: absolute;
-    top: 350px;
+    top: 280px;
     color: #ffffff;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333)
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+    margin-left: 10px;
   }
 
   .Texto4{
     position: absolute;
-    top: 370px;
+    top: 300px;
     color: #ffffff;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333)
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+    margin-left: 10px;
   }
 
   .Texto5{
     position: absolute;
-    top: 390px;
+    top: 320px;
     color: #ffffff;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333)
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+    margin-left: 10px;
   }
 
   .Texto6{
     position: absolute;
-    top: 410px;
+    top: 340px;
     color: #ffffff;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333)
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+    margin-left: 10px;
   }
 
   #Garou {
@@ -101,4 +105,30 @@
   
 #Garou:hover {
     transform: scale(1.1); 
+  }
+
+  .Parrafos {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .Texto2 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
