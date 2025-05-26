@@ -1,25 +1,49 @@
-<html>
-   <head>
-    <title>Mi pagina web</title>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web de DarkneZzz, un desarrollador web apasionado por anime y manga.">
+    <title>DarkneZzztsu - Portafolio Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/styles.css">
     <link rel="icon" href="./img/Hero_Hunter_icon_new.png">
-    </head>
-    <body>
-        <div class="Buttons">
-            <a class="Buttons2" href="./RedesSociales.html">RedesSociales</a>
-            <a class="Buttons2" href="./ServerMc.html">ServerMc</a>
-            <a class="Buttons2" href="./Login.html">Login</a>
-            <a class="Buttons2" href="./soporte.html">Soporte</a>
-            <a class="Buttons2" href="./Youtube.html">Youtube</a>
-        </div>
-        <div class="Imagen1"><img style="width: 1500px; height: 900px;" src="./img/download.jpeg"></div>
-        <h1 class="Texto2">Bienvenido a mi portafolio web</h1>
-    <div class="Parrafos">
-        <p class="Texto3">¡Hola! Mi nombre es DarkneZzz, tengo 16 años y soy de Colombia.</p>
-        <p class="Texto4">un futuro desarrollador web con pasión por el anime, el manga</p>
-        <p class="Texto5">y todo lo relacionado con el mundo de la computación.</p>
-        <p class="Texto6">gusto conocerte! Espero poder ayudarte en lo que necesites.</p>
-    </div>
-        <img class="Imagen2" id="Garou"  src="./img/icon.jpg">
-    </body>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <a class="nav-link" href="./RedesSociales.html">Redes Sociales</a>
+            <a class="nav-link" href="./ServerMc.html">Server MC</a>
+            <a class="nav-link" href="./Login.html">Login</a>
+            <a class="nav-link" href="./soporte.html">Soporte</a>
+            <a class="nav-link" href="./Youtube.html">YouTube</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="./img/download.webp" type="image/webp">
+            </picture>
+            <h1>Bienvenido a mi portafolio web</h1>
+        </section>
+        <section class="about">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Mi nombre es DarkneZzz, tengo 16 años y soy de Colombia.</p>
+            <p>Un futuro desarrollador web con pasión por el anime, el manga</p>
+            <p>y todo lo relacionado con el mundo de la computación.</p>
+            <p>¡Gusto conocerte! Espero poder ayudarte en lo que necesites.</p>
+            <img class="profile-image" id="Garou" src="./img/icon.jpg" alt="Imagen de perfil de DarkneZzz" loading="lazy">
+        </section>
+        <section class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <!-- Agrega proyectos aquí -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 DarkneZzz. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./scripts/main.js"></script>
+</body>
 </html>
